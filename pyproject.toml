@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "awakehours"
+version = "0.1.0"
+description = "Find the hours when your whole team is actually awake — hourly working-hours grid across time zones, ranked by the least painful overlap"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+keywords = ["timezone", "meeting", "scheduler", "remote-work", "dst", "cli", "developer-tools", "distributed-teams"]
+authors = [{ name = "doge-th" }]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Office/Business :: Scheduling",
+    "Topic :: Utilities",
+]
+
+[project.scripts]
+awakehours = "awakehours.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/doge-th/awakehours"
+Issues = "https://github.com/doge-th/awakehours/issues"
+
+[tool.setuptools]
+packages = ["awakehours"]
