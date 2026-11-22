@@ -107,6 +107,13 @@ awakehours ... --markdown      # 贴进排会邮件线程
 [githotspot](https://github.com/doge-th/githotspot)(churn × 复杂度热点)、
 [todomold](https://github.com/doge-th/todomold)(TODO 腐烂排行)。
 
+## Related tools
+
+- [csvpulse](https://github.com/doge-th/csvpulse) — take the pulse of a CSV file in one command
+- [toktree](https://github.com/doge-th/toktree) — `du` for your LLM context window
+- [githotspot](https://github.com/doge-th/githotspot) — churn × complexity hotspots in your git history
+- [todomold](https://github.com/doge-th/todomold) — your oldest TODOs, with who wrote them and how long they've rotted
+
 ## Development
 
 ```bash
