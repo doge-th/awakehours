@@ -113,6 +113,7 @@ awakehours ... --markdown      # 贴进排会邮件线程
 - [toktree](https://github.com/doge-th/toktree) — `du` for your LLM context window
 - [githotspot](https://github.com/doge-th/githotspot) — churn × complexity hotspots in your git history
 - [todomold](https://github.com/doge-th/todomold) — your oldest TODOs, with who wrote them and how long they've rotted
+- [pyverscan](https://github.com/doge-th/pyverscan) — the oldest Python your code can run on, from the AST up
 
 ## Development
 
